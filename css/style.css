@@ -1,0 +1,50 @@
+.head{
+    background-color: white;
+}
+.mark{
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+body{
+    background-color:  blueviolet;
+
+}
+.lcd{
+    height: 150px;
+    padding: 17px;
+    background-color: white;
+    border: 3px solid rgb(25, 21, 21);
+    border-radius: 12px 12px 12px 12px;
+}
+
+.box{
+    height: 330px;
+    border: 2px solid white;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(25, 21, 21);
+    
+}
+.ds{
+    display: inline-block;
+font-family: cursive;
+font-size: 80px;
+}
+.bts{
+width: 70px;
+margin: auto;
+}
+.btnsz{
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(25, 21, 21);
+
+ 
+}

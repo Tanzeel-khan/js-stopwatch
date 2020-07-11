@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div  class="head">
+        <marquee class="mark" behavior="" direction="right">Stopwatch Assigment By : M.Tanzeel Ur Rehman Roll no: WM11065</marquee>
+    </div>
+    <br>
+    
+        <h1 class="display-3 heading" >Stopwatch</h1>
+<br>
+
+        <div class="container">
+<div class="row ">
+    <div class="col-xs-12 col-sm-12 col-md-12 ">
+        <div class="col-xs-12 col-sm-12 col-md-5  box" style="margin: 0 auto;">
+            <br>
+            <div class="col-xs-12 col-sm-12 col-md-11 lcd text-center" style="margin: 0 auto;">
+<h1 id="min" class="ds mx-2">0</h1>
+<h1 id="sec" class="ds mx-2">0</h1>
+<h1 id="mili" class="ds mx-2">0</h1>
+                </div>
+                <br>                
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center btnsz" style="margin: 0 auto;">
+                    <div class="btn-toolbar">
+                    <button type="button" id="btstart" class="btn btn-outline-success bts" onclick="run()" >Start</button>
+                    <button type="button" id="ptstart" class="btn btn-outline-primary bts" onclick="pause()">Pause</button>
+                <button type="button" id="rtstart" class="btn btn-outline-danger bts" onclick="reset()">Reset</button>
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>
+</div>       
+<br>
+
+<script src="app.js"></script>
+</body>
+</html>
