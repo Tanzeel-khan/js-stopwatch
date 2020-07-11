@@ -14,7 +14,7 @@
     font-weight: bold;
 }
 body{
-    background-color:  blueviolet;
+    background: linear-gradient(to right , black,blue);
 
 }
 .lcd{
@@ -29,7 +29,7 @@ body{
     height: 330px;
     border: 2px solid white;
     border-radius: 15px 15px 15px 15px;
-    background-color: rgb(25, 21, 21);
+    /* background: linear-gradient(45deg, red ,blue); */
     
 }
 .ds{
